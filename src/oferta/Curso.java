@@ -15,9 +15,14 @@ public class Curso extends OfertaAcademica {
         this.calcularPrecio();
     }
 
+    // Getters
+    public int getCantidadCargaHoraria() {
+        return cantidadCargaHoraria;
+    }
+
     // Methods
     @Override
     public void calcularPrecio() {
-        this.precio =  this.cantidadCargaHoraria * this.cantidadMeses * this.valorHora;
+        this.precio = this.cantidadCargaHoraria * this.cantidadMeses * this.valorHora;
     }
 }

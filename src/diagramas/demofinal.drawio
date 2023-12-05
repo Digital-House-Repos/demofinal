@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-05T01:23:01.264Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="vyDhW3dZ6TM_zhmSMQxb" version="22.1.5" type="device">
+<mxfile host="app.diagrams.net" modified="2023-12-05T02:24:28.169Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="YXG6WiiixC8lMoYT6Ul_" version="22.1.5" type="device">
   <diagram name="Page-1" id="Cy9goMQKKYnspFdInBqu">
     <mxGraphModel dx="1674" dy="779" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -17,7 +17,7 @@
           <mxGeometry y="118" width="160" height="62" as="geometry" />
         </mxCell>
         <mxCell id="J_DjWisITVP8W53_KxlS-5" value="Curso" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="570" y="10" width="180" height="200" as="geometry" />
+          <mxGeometry x="640" y="20" width="180" height="200" as="geometry" />
         </mxCell>
         <mxCell id="J_DjWisITVP8W53_KxlS-6" value="&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;&lt;b&gt;- nombre: String&lt;/b&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;b&gt;- descripcion: String&lt;/b&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;b&gt;- precio: double&lt;/b&gt;&lt;br&gt;- cantidadCargaHoraria: int&lt;br&gt;- cantidadMeses: int&lt;br&gt;- valorHora: double&lt;br&gt;&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="J_DjWisITVP8W53_KxlS-5">
           <mxGeometry y="26" width="180" height="104" as="geometry" />
@@ -29,7 +29,7 @@
           <mxGeometry y="138" width="180" height="62" as="geometry" />
         </mxCell>
         <mxCell id="J_DjWisITVP8W53_KxlS-9" value="Instituto" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="40" y="90" width="160" height="120" as="geometry" />
+          <mxGeometry x="10" y="20" width="160" height="120" as="geometry" />
         </mxCell>
         <mxCell id="J_DjWisITVP8W53_KxlS-10" value="- listaOferta: List&amp;lt;Oferta&amp;gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="J_DjWisITVP8W53_KxlS-9">
           <mxGeometry y="26" width="160" height="26" as="geometry" />
@@ -44,7 +44,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="J_DjWisITVP8W53_KxlS-21" value="Programa" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="410" y="290" width="180" height="210" as="geometry" />
+          <mxGeometry x="630" y="230" width="180" height="210" as="geometry" />
         </mxCell>
         <mxCell id="J_DjWisITVP8W53_KxlS-22" value="&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;&lt;b&gt;- nombre: String&lt;/b&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;b&gt;- descripcion: String&lt;/b&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;b&gt;- precio: double&lt;/b&gt;&lt;br&gt;- listaCursos: List&amp;lt;Cursos&amp;gt;&lt;br&gt;- descuento: double&lt;br&gt;&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="J_DjWisITVP8W53_KxlS-21">
           <mxGeometry y="26" width="180" height="94" as="geometry" />
@@ -59,6 +59,41 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="J_DjWisITVP8W53_KxlS-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.857;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="J_DjWisITVP8W53_KxlS-21" target="J_DjWisITVP8W53_KxlS-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="570" y="335" />
+              <mxPoint x="570" y="170" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J_DjWisITVP8W53_KxlS-27" value="Taller" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="390" width="180" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="J_DjWisITVP8W53_KxlS-28" value="&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;&lt;b&gt;- nombre: String&lt;/b&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;b&gt;- descripcion: String&lt;/b&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;b&gt;- precio: double&lt;/b&gt;&lt;br&gt;- trabajosPracticos: int&lt;br&gt;- costoTP: double&lt;br&gt;&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="J_DjWisITVP8W53_KxlS-27">
+          <mxGeometry y="26" width="180" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="J_DjWisITVP8W53_KxlS-29" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="J_DjWisITVP8W53_KxlS-27">
+          <mxGeometry y="130" width="180" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="J_DjWisITVP8W53_KxlS-30" value="+ Taller()&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;+ getters()&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;+ calcularPrecio()&lt;/b&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="J_DjWisITVP8W53_KxlS-27">
+          <mxGeometry y="138" width="180" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="J_DjWisITVP8W53_KxlS-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.794;entryY=1.032;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="J_DjWisITVP8W53_KxlS-27" target="J_DjWisITVP8W53_KxlS-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="J_DjWisITVP8W53_KxlS-32" value="Carrera" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="340" width="240" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="J_DjWisITVP8W53_KxlS-33" value="&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;&lt;b&gt;- nombre: String&lt;/b&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;b&gt;- descripcion: String&lt;/b&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;b&gt;- precio: double&lt;/b&gt;&lt;br&gt;- costoBasico: double&lt;br&gt;- listaCursoTaller: List&amp;lt;OfertaAcademica&amp;gt;&lt;br&gt;&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="J_DjWisITVP8W53_KxlS-32">
+          <mxGeometry y="26" width="240" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="J_DjWisITVP8W53_KxlS-34" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="J_DjWisITVP8W53_KxlS-32">
+          <mxGeometry y="130" width="240" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="J_DjWisITVP8W53_KxlS-35" value="+ Taller()&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;&lt;b&gt;+ getters()&lt;/b&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;b&gt;+ calcularPrecio()&lt;/b&gt;&lt;br&gt;+ agregarCursoTaller(OfertaAcademica)&lt;br&gt;+ listarCursoTaller()&lt;br&gt;&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="J_DjWisITVP8W53_KxlS-32">
+          <mxGeometry y="138" width="240" height="92" as="geometry" />
+        </mxCell>
+        <mxCell id="J_DjWisITVP8W53_KxlS-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.323;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="J_DjWisITVP8W53_KxlS-32" target="J_DjWisITVP8W53_KxlS-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
